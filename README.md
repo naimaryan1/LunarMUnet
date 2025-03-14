@@ -26,6 +26,11 @@ Here is what the training data looks like:
 
 Sample training run after 30 epochs, only 20% of the data and learning rate= 1e-4:
 
+![Alt text](sample_training_loss.png)
+
+Training data was provided as open-source data via Kaggle from Robotics Group of Keio University in Japan (https://www.srg.mech.keio.ac.jp/en/)
+
+
 
 
       
