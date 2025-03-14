@@ -21,7 +21,11 @@ pip install -r  requirements.txt
 4) Follow directions in "Multiclass Image Segmentation using U-Net on Lunar Landscape Data Using Pytorch.pdf"
 
 Here is what the training data looks like:
-(image_and_mask.jpg)
+
+![Alt text](image_and_mask.jpg)
+
+Sample training run after 30 epochs, only 20% of the data and learning rate= 1e-4:
+
 
 
       
