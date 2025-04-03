@@ -4,6 +4,8 @@ Martian Section(Ready for use)
 Mars remains a frontier for exploration and a stepping stone for space exploration. 
 Due to the distance from Earth; Martian exploration may initially depend on autonomous operations that may face many hazards such as rocks and craters. We have implemented a U-Net-only image segmentation model for Martian landscape segmentation for rock detection. Rocks remain a major hazard to any autonomous planetary rover. 
 
+![Alt text](MartianSeg.jpg)
+
 1) Clone the repo & open "Final unet_lunar_rocks.ipynb"  Google Collab Notebook.
 
    i) You will need a Google Gmail & Collab account.
@@ -20,6 +22,10 @@ Due to the distance from Earth; Martian exploration may initially depend on auto
 pip install -r  requirements.txt
 
 4) Follow the directions in "Martian - Image Segmentation using U-Net on Martian Landscape Data Using Pytorch.pdf"
+
+   Sample Loss after 30 epochs using only 10 training images and 180 augmentations:
+
+   ![Alt text](martianUnet30epochs.png)
 
 Lunar Section (Code is under development) 
 Artificial Lunar Surface Segmentation Using U-Net in PyTorch
@@ -43,15 +49,7 @@ pip install -r  requirements.txt
 
 4) Follow the directions in "Lunar - Image Segmentation using U-Net on Lunar Landscape Data Using Pytorch.pdf"
 
-Here is what the training data looks like:
-
-![Alt text](image_and_mask.jpg)
-
-Sample training run after 30 epochs, only 20% of the data and learning rate= 1e-4:
-
-![Alt text](sample_training_loss.png)
-
-Training data was provided as open-source data via Kaggle from Robotics Group of Keio University in Japan (https://www.srg.mech.keio.ac.jp/en/)
+Lunar Training data was provided as open-source data via Kaggle from Robotics Group of Keio University in Japan (https://www.srg.mech.keio.ac.jp/en/)
 
 
 
