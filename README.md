@@ -27,6 +27,8 @@ pip install -r  requirements.txt
 
    ![Alt text](martianUnet30epochs.png)
 
+Martian Data was obtained from (https://github.com/CVIR-Lab/MarsData)
+
 # Lunar Section (Code is under development) 
 Artificial Lunar Surface Segmentation Using U-Net in PyTorch
 
