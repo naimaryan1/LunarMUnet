@@ -1,5 +1,5 @@
 # LunarMUnet
-Martian Section(Ready for use)
+# Martian Section(Ready for use)
 
 Mars remains a frontier for exploration and a stepping stone for space exploration. 
 Due to the distance from Earth; Martian exploration may initially depend on autonomous operations that may face many hazards such as rocks and craters. We have implemented a U-Net-only image segmentation model for Martian landscape segmentation for rock detection. Rocks remain a major hazard to any autonomous planetary rover. 
@@ -27,7 +27,7 @@ pip install -r  requirements.txt
 
    ![Alt text](martianUnet30epochs.png)
 
-Lunar Section (Code is under development) 
+# Lunar Section (Code is under development) 
 Artificial Lunar Surface Segmentation Using U-Net in PyTorch
 
 Earth’s Moon remains a frontier for exploration and a stepping stone for planetary exploration. Due to lack of atmosphere, distance from Earth’s resources, autonomous operations are a viable solution to build lunar infrastructure. The goal is to determine if U-Net is suitable based on performance metrics such as (Dice an/or IoU). 
